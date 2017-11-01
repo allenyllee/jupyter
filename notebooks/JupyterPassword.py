@@ -15,8 +15,17 @@ LINE = "========================================================================
 print(LINE)
 print("Setting Jupyter additional configuration")
 print(LINE)
-print("Please set a strong password")
-PWHASH = passwd()
+
+if 'PASSWORD' in os.environ:
+    PSWD = os.environ['PASSWORD']
+    if PSWD:
+        print("PASSWORD environment varible has been set, just use it....")
+        PWHASH = passwd(PSWD)
+    else:
+        print("Please set a strong password")
+        PWHASH = passwd()
+    del os.environ['PASSWORD']
+
 print(LINE)
 print("Following will be added to %s " % (JUPYTER_CONFIG))
 
