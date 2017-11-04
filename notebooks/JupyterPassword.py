@@ -3,7 +3,15 @@
 """
 Script to create a password for the Jupyter notebook configuration
 Written by Pieter de Rijk <pieter@de-rijk.com>
+Modified by Allen YL Lee <allen7575@gmail.com>
 """
+#
+# Can one set up automated config file with a password prompt? · Issue #1700 · jupyter/notebook
+# https://github.com/jupyter/notebook/issues/1700
+#
+# I wrote a small python script that creates the correct password entry.
+# https://github.com/paderijk/jupyter-password/blob/master/jupyter-password.py
+#
 
 import os
 from notebook.auth import passwd
