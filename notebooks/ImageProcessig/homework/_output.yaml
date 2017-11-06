@@ -1,0 +1,6 @@
+custom_document:
+  pdf_document:
+    template: pm-template.latex
+  pandoc_args: [
+    "--template=pm-template"
+  ]
