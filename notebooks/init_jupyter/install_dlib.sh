@@ -6,10 +6,13 @@
 # dependencies for build dlib: cmake, boost, PkgConfig
 # build-essential: gcc,g++,make...
 # check dependency: apt-cache depends build-essential
-sudo apt-get install -y build-essential cmake libboost-python-dev, pkg-config
+sudo apt-get install -y build-essential cmake libboost-python-dev pkg-config
 
 # dependencies for X11 GUI window
 sudo apt-get install -y libx11-dev
+
+# dependencies for ??
+sudo apt-get install libatlas-base-dev libgtk-3-dev
 
 # build dlib
 # davisking/dlib: A toolkit for making real world machine learning and data analysis applications in C++ 
