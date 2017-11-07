@@ -12,7 +12,7 @@ apt-get install -y build-essential cmake libboost-python-dev pkg-config
 apt-get install -y libx11-dev
 
 # dependencies for ??
-apt-get install libatlas-base-dev libgtk-3-dev
+apt-get install -y libatlas-base-dev libgtk-3-dev
 
 # build dlib
 # davisking/dlib: A toolkit for making real world machine learning and data analysis applications in C++ 
