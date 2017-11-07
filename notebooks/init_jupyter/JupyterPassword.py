@@ -24,6 +24,10 @@ print(LINE)
 print("Setting Jupyter additional configuration")
 print(LINE)
 
+#
+# tensorflow/jupyter_notebook_config.py at 075d1d13b47b09405a65a4897bdb755e043ef4e0 · tensorflow/tensorflow
+# https://github.com/tensorflow/tensorflow/blob/075d1d13b47b09405a65a4897bdb755e043ef4e0/tensorflow/tools/docker/jupyter_notebook_config.py
+#
 if 'PASSWORD' in os.environ:
     PSWD = os.environ['PASSWORD']
     if PSWD:
