@@ -1,0 +1,6 @@
+[submodule "notebooks/ImageProcessig/Face_SWAP_python"]
+	path = notebooks/ImageProcessig/Face_SWAP_python
+	url = https://github.com/yuhanyen/Face_SWAP_python.git
+[submodule "notebooks/ImageProcessig/Emotion_Recognition_python"]
+	path = notebooks/ImageProcessig/Emotion_Recognition_python
+	url = https://github.com/yuhanyen/Emotion_Recognition_python.git
