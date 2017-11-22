@@ -4,3 +4,9 @@
 [submodule "notebooks/ImageProcessig/Emotion_Recognition_python"]
 	path = notebooks/ImageProcessig/Emotion_Recognition_python
 	url = https://github.com/allenyllee/Emotion_Recognition_python.git
+[submodule "notebooks/ImageProcessig/CNN_Face_Detection_python"]
+	path = notebooks/ImageProcessig/CNN_Face_Detection_python
+	url = https://github.com/allenyllee/CNN_Face_Detection_python.git
+[submodule "notebooks/ImageProcessig/Face_Recognition_python"]
+	path = notebooks/ImageProcessig/Face_Recognition_python
+	url = https://github.com/allenyllee/Face_Recognition_python.git
